@@ -14,7 +14,7 @@ export default function Home() {
 
       {/*
       
-      Simple Avatar component that takes in props. Here, we are telling what ID or "image" to load from imgur.     
+      Simple Avatar component that takes in props. Here, we are telling what ID or "image" to load from imgur, and we can adjust the size if need be.      
       
        
       */}
@@ -22,7 +22,7 @@ export default function Home() {
       <Avatar
         size={100}
         person={{ 
-          name: 'Sarah Smith',
+          name: 'Bob Smith',
           imageId: 'HXY3V2U'
         }}        
       /> 
@@ -36,7 +36,7 @@ export default function Home() {
       <Avatar
         size={150}
         person={{ 
-          name: 'Sarah Smith',
+          name: 'John Smith',
           imageId: 'Iiv6PZb'
         }}        
       /> 
