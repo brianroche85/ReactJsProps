@@ -8,28 +8,36 @@ function Card({ children }) {
   );
 }
 
-export default function Profile() {
-  return (
-    <Card>
+export default function Home() {
+  return (    
+    <Card>      
+
+      {/*
+      
+      Simple Avatar component that takes in props. Here, we are telling what ID or "image" to load from imgur.     
+      
+       
+      */}
+
       <Avatar
         size={100}
         person={{ 
           name: 'Sarah Smith',
-          imageId: 'YfeOqp2'
+          imageId: 'HXY3V2U'
         }}        
       /> 
       <Avatar
-        size={200}
+        size={125}
         person={{ 
           name: 'Sarah Smith',
-          imageId: 'YfeOqp2'
+          imageId: 'M1cuHHF'
         }}        
       /> 
       <Avatar
-        size={300}
+        size={150}
         person={{ 
           name: 'Sarah Smith',
-          imageId: 'YfeOqp2'
+          imageId: 'Iiv6PZb'
         }}        
       /> 
     </Card>
